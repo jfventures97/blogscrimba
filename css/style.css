@@ -79,14 +79,29 @@ nav a {
     color: #fefefe;
     font-size: 12px;
     font-family: "Source Sans 3", sans-serif;
+     background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-end;   /* push text to bottom */
+    align-items: flex-start;     /* align text to left */
+    padding: 0 1rem 1rem 1rem;               /* add some spacing from edges */
 }
+
 
 .featured-post h1 {
     font-size: 32px;
     line-height: 1.2;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .featured-post h2 { 
     font-size: 16px;
     font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
+    width: 90%;
+    color: #FFFFFF;
+    opacity: 90%;
 }
