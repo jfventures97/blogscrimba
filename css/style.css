@@ -71,3 +71,22 @@ nav a {
     margin: 0;
     padding: 0;
 }
+
+.featured-post {
+    width: 100%;
+    height : 18.3125rem;
+    background-image: url("../images/laptopimage.png");
+    color: #fefefe;
+    font-size: 12px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.featured-post h1 {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.featured-post h2 { 
+    font-size: 16px;
+    font-weight: 400;
+}
