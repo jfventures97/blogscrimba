@@ -1,0 +1,73 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:3.6875rem;
+   
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.8em;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin-left: 0px;
+    padding: 0
+}
+
+nav a {
+    text-decoration: none;
+    color: #090909;
+    
+    font-size: 0.75rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    margin: auto auto;
+}
+
+.logotext {
+    font-size: 0.8468rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+        margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.logoimage{
+    height: 1.475rem;
+    width: 1.475rem;
+
+}
+
+.logo a {
+    display: flex;          /* put image + text in a row */
+    align-items: center;    /* vertically align them */
+    gap: 0.2rem;            /* space between image & text */
+    text-decoration: none;  /* remove underline */
+    color: inherit;         /* text uses parent color */
+    margin-left: 20px;
+}
+
+.logoimage {
+    height: 1.475rem;
+    width: 1.475rem;
+}
+
+.logotext {
+    font-size: 0.8468rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
